@@ -1,0 +1,10 @@
+name - Kuldeepsinh Sandipsinh Mahida
+Student id - 167547215
+Email - kmahida1@myseneca.ca
+Date of completion 21 october 2022
+time - 8:00 pm
+
+In the workshop I learned about the operator overloading and working with friend functions and it implementation
+However I faced very much difficulty in completing this workshop as all the things were new to me and working with 
+friend function was bit hard for me but I managed by watching the videos on youtube and reading the notes by doing this
+I was able to complete my workshop.

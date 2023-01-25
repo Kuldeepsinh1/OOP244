@@ -1,0 +1,11 @@
+/* 
+	Name - Kuldeepsinh Sandipsinh Mahida
+   	Email - kmahida1@myseneca.ca
+   	StudentID - 167547215
+   	Date of Completion - 27 november 2022
+   	time of completion 8:30 pm
+*/
+
+implementation of virtual functions, operator overloading, helper functions and the concept of inheritance was used 
+to inherit class text in htmltext and other old functions nothing much was acted as hindrance but sometimes had to search
+on net for debugging the errors which were poping out of no where.

@@ -1,0 +1,14 @@
+In line number 16 of your output:
+The output should be:
+[ 49] != [ 50]: T
+                ^
+But your output is: 
+[ 49] != [ 50]: F
+                ^
+
+Unmatched character details:
+The character in column 17 is supposed to be:
+  [T] ASCII code(84)
+but you printed
+  [F] ASCII code(70)
+

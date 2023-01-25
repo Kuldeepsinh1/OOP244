@@ -1,0 +1,195 @@
+Script started on Mon 26 Sep 2022 12:22:08 PM EDT
+==80531== Memcheck, a memory error detector
+==80531== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==80531== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==80531== Command: ws
+==80531== 
+Testing Seat class Functionalities...
+       Should be Invalid: Invalid Seat!
+       Seat not assigned: Darth Vader............................. ___
+           Assigned Seat: Luke Skywalker.......................... 7B
+Darth`s seat is assigned: Darth Vader............................. 7A
+   nullptr name; Invalid: Invalid Seat!
+     Empty name; Invalid: Invalid Seat!
+        A very long name: Hubert Blaine Wolfeschlegelsteinhausenbe 2A
+          bad row number: Darth Vader............................. ___
+          bad row number: Darth Vader............................. ___
+          bad row number: Darth Vader............................. ___
+          bad row number: Darth Vader............................. ___
+          bad row number: Darth Vader............................. ___
+          bad row number: Darth Vader............................. ___
+         bad seat letter: Darth Vader............................. ___
+         bad seat letter: Darth Vader............................. ___
+         bad seat letter: Darth Vader............................. ___
+  Luke's individual info: Luke Skywalker.......................... 7B
+Name: Luke Skywalker
+Row: 7
+letter: B
+       Seat gone (reset): Invalid Seat!
+ Give the seat to luke's sister; enter following information:
+Leia Organa,12B<ENTER>
+Leia Organa,12B
+you entered: 
+             Leia's seat: Leia Organa............................. 12B
+========================================================================
+Testing Read and constant methods
+  1- Business Class Window: Baby Gerald............................. 1A
+  2- Business Class  Aisle: Groundskeeper Willie.................... 1B
+  3- Business Class  Aisle: Dolph Starbeam.......................... 1E
+  4- Business Class Window: Kirk Van Houten......................... 1F
+  5- Business Class Window: Artie Ziff.............................. 2A
+  6- Business Class  Aisle: Edna Krabappel.......................... 2B
+  7- Business Class  Aisle: Luann Van Houten........................ 2E
+  8- Business Class Window: Janey Powell............................ 2F
+  9- Business Class Window: Akira Kurosawa.......................... 3A
+ 10- Business Class  Aisle: Luigi Risotto........................... 3B
+ 11- Business Class  Aisle: Homer Simpson........................... 3E
+ 12- Business Class Window: Selma Bouvier........................... 3F
+ 13- Business Class Window: Wendell Borton.......................... 4A
+ 14- Business Class Middle: Manjula Nahasapeemapetilon.............. 4B
+ 15- Business Class Middle: Kearney Zzyzwicz........................ 4E
+ 16- Business Class Window: Brandine Spuckler....................... 4F
+ 17- Invalid seat assigned: Moe Szyslak............................. ___
+ 18- Invalid seat assigned: Ralph Wiggum............................ ___
+ 19-   Economy Plus  Aisle: Barney Gumble........................... 7D
+ 20-   Economy Plus Window: Carl Carlson............................ 7F
+ 21-   Economy Plus  Aisle: Gil Gunderson........................... 7C
+ 22-   Economy Plus Middle: Gloria Jailbird......................... 7B
+ 23-   Economy Plus Middle: Krusty The Clown........................ 7E
+ 24-   Economy Plus Window: Rod Flanders............................ 7A
+ 25-   Economy Plus Window: Bumblebee Man........................... 8A
+ 26-   Economy Plus  Aisle: Disco Stu............................... 8D
+ 27-   Economy Plus Middle: Helen Lovejoy........................... 8B
+ 28-   Economy Plus Window: Rabbi Hyman Krustofsky.................. 8F
+ 29-   Economy Plus Middle: Roger Meyers Jr......................... 8E
+ 30-   Economy Plus  Aisle: Shauna Chalmers......................... 8C
+ 31-   Economy Plus  Aisle: Bernice Hibbert......................... 9C
+ 32-   Economy Plus  Aisle: Dewey Largo............................. 9D
+ 33-   Economy Plus Window: Lunchlady Doris......................... 9F
+ 34-   Economy Plus Middle: Mayor Joe Quimby........................ 9E
+ 35-   Economy Plus Middle: Squeaky-Voiced Teen..................... 9B
+ 36-   Economy Plus Window: Waylon Smithers......................... 9A
+ 37-   Economy Plus  Aisle: Cletus Spuckler......................... 10D
+ 38-   Economy Plus Middle: Herman Hermann.......................... 10E
+ 39-   Economy Plus Window: Kent Brockman........................... 10A
+ 40-   Economy Plus Middle: Lindsey Naegle.......................... 10B
+ 41-   Economy Plus  Aisle: Ned Flanders............................ 10C
+ 42-   Economy Plus Window: Todd Flanders........................... 10F
+ 43-   Economy Plus  Aisle: Allison Taylor.......................... 11D
+ 44-   Economy Plus Window: Marge Simpson........................... 11F
+ 45-   Economy Plus Middle: Martin Prince........................... 11E
+ 46-   Economy Plus Middle: Rainier Wolfcastle...................... 11B
+ 47-   Economy Plus  Aisle: Sarah Wiggum............................ 11C
+ 48-   Economy Plus Window: Uter Zorker............................. 11A
+ 49-   Economy Plus  Aisle: Hans Moleman............................ 12C
+ 50-   Economy Plus  Aisle: Jessica Lovejoy......................... 12D
+ 51-   Economy Plus Window: Jimbo Jones............................. 12A
+ 52-   Economy Plus Middle: Judge Roy Snyder........................ 12B
+ 53-   Economy Plus Window: Kumiko Albertson........................ 12F
+ 54-   Economy Plus Middle: Milhouse Van Houten..................... 12E
+ 55-   Economy Plus Window: Apu Nahasapeemapetilon.................. 13F
+ 56-   Economy Plus  Aisle: Elizabeth Hoover........................ 13D
+ 57-   Economy Plus Middle: Lisa Simpson............................ 13E
+ 58-   Economy Plus Middle: Miss Springfield........................ 13B
+ 59-   Economy Plus  Aisle: Patty Bouvier........................... 13C
+ 60-   Economy Plus Window: Wise Guy................................ 13A
+ 61-   Economy Plus  Aisle: Jacqueline Bouvier...................... 14D
+ 62-   Economy Plus Window: Jasper Beardly.......................... 14A
+ 63-   Economy Plus Middle: Sea Captain............................. 14E
+ 64-   Economy Plus Middle: Seymour Skinner......................... 14B
+ 65-   Economy Plus  Aisle: The Rich Texan.......................... 14C
+ 66-   Economy Plus Window: Troy McClure............................ 14F
+ 67-   Economy Plus  Aisle: Bart Simpson............................ 15C
+ 68-   Economy Plus Middle: Johnny Tightlips........................ 15E
+ 69-   Economy Plus Window: Lionel Hutz............................. 15F
+ 70-   Economy Plus Middle: Mona Simpson............................ 15B
+ 71-   Economy Plus  Aisle: Ruth Powers............................. 15D
+ 72-   Economy Plus Window: Sideshow Mel............................ 15A
+ 73- Invalid seat assigned: Abraham Simpson......................... ___
+ 74- Invalid seat assigned: Alice Glick............................. ___
+ 75- Invalid seat assigned: Chazz Busby............................. ___
+ 76- Invalid seat assigned: Nelson Muntz............................ ___
+ 77- Invalid seat assigned: Snake Jailbird.......................... ___
+ 78- Invalid seat assigned: Surly Duff.............................. ___
+ 79- Invalid seat assigned: Chris Griffin........................... ___
+ 80- Invalid seat assigned: Comic Book Guy.......................... ___
+ 81- Invalid seat assigned: Drederick Tatum......................... ___
+ 82- Invalid seat assigned: Lenny Leonard........................... ___
+ 83- Invalid seat assigned: Ling Bouvier............................ ___
+ 84- Invalid seat assigned: Maude Flanders[D]....................... ___
+ 85- Invalid seat assigned: Brian Griffin........................... ___
+ 86- Invalid seat assigned: Diane Simmons........................... ___
+ 87- Invalid seat assigned: Lois Griffin............................ ___
+ 88- Invalid seat assigned: Maggie Simpson.......................... ___
+ 89- Invalid seat assigned: Peter Griffin........................... ___
+ 90- Invalid seat assigned: Stewie Griffin.......................... ___
+ 91- Invalid seat assigned: Cleveland Brown......................... ___
+ 92- Invalid seat assigned: Glenn Quagmire.......................... ___
+ 93- Invalid seat assigned: Joe Swanson............................. ___
+ 94- Invalid seat assigned: Judge Dignified Q. Blackman............. ___
+ 95- Invalid seat assigned: Meg Griffin............................. ___
+ 96- Invalid seat assigned: Tom Tucker.............................. ___
+ 97-        Economy  Aisle: Bonnie Swanson.......................... 20C
+ 98-        Economy Middle: Bruce Jake Tucker....................... 20E
+ 99-        Economy Window: Elmer Hartman........................... 20F
+100-        Economy Window: Jonathan Weed........................... 20A
+101-        Economy Middle: Loretta Brown........................... 20B
+102-        Economy  Aisle: Rupert Kevin Swanson.................... 20D
+103-        Economy Middle: Babs Pewterschmidt...................... 21B
+104-        Economy Window: Carter Pewterschmidt.................... 21A
+105-        Economy Middle: Cleveland Brown Jr...................... 21E
+106-        Economy Window: Jasper Goldman.......................... 21F
+107-        Economy  Aisle: Mayor Adam West......................... 21C
+108-        Economy  Aisle: Tricia Takanawa......................... 21D
+109-        Economy Middle: Connie D'Amico.......................... 22E
+110-        Economy  Aisle: Ernie The Giant Chicken................. 22D
+111-        Economy Window: Evil Monkey............................. 22A
+112-        Economy Middle: Horace Jim Kaplan....................... 22B
+113-        Economy Window: Muriel Goldman.......................... 22F
+114-        Economy  Aisle: Neil Goldman............................ 22C
+115-        Economy Middle: Francis Griffin......................... 23B
+116-        Economy  Aisle: John Herbert............................ 23D
+117-        Economy Middle: Mort Goldman............................ 23E
+118-        Economy Window: Patty Ruth Cochamer..................... 23F
+119-        Economy Window: Principal John Shepherd................. 23A
+120-        Economy  Aisle: Thelma Griffin.......................... 23C
+121-        Economy Middle: Angela Esther........................... 24E
+122-        Economy  Aisle: Carol West.............................. 24C
+123-        Economy  Aisle: Greased-Up Deaf Guy..................... 24D
+124-        Economy Window: Jillian Russell-Wilcox.................. 24F
+125-        Economy Middle: Ollie Williams.......................... 24B
+126-        Economy Window: Seamus Levine........................... 24A
+127-        Economy  Aisle: Al Harrington........................... 25C
+128-        Economy Middle: Carl Woods.............................. 25E
+129-        Economy Window: James William Bottomtooth III........... 25A
+130-        Economy  Aisle: James Woods............................. 25D
+131-        Economy Middle: Jesse Opie.............................. 25B
+132-        Economy Window: Rallo Tubbs............................. 25F
+133-        Economy  Aisle: Donna Tubbs-Brown....................... 26D
+134-        Economy Window: Fouad RJ Consuela....................... 26A
+135-        Economy Middle: Ida Davis Jerome........................ 26E
+136-        Economy Window: Shmi Skywalker.......................... 26F
+137-        Economy  Aisle: Susie Swanson........................... 26C
+138-        Economy Middle: Tomik & Bellgarde....................... 26B
+139-        Economy Window: Ben Solo................................ 27F
+140-        Economy Middle: Doug Tammy.............................. 27E
+141-        Economy Window: Joyce Kinney............................ 27A
+142-        Economy  Aisle: Miss Tammy.............................. 27D
+143-        Economy  Aisle: Roberta Tubbs........................... 27C
+144-        Economy Middle: Stella Vinny............................ 27B
+145-        Economy Window: Anakin Skywalker........................ 28A
+146-        Economy Middle: Darth Vader............................. 28B
+147-        Economy Middle: Han Solo................................ 28E
+148-        Economy  Aisle: Leia Organa............................. 28D
+149-        Economy  Aisle: Luke Skywalker.......................... 28C
+150-        Economy Window: Ryoo Naberrie........................... 28F
+==80531== 
+==80531== HEAP SUMMARY:
+==80531==     in use at exit: 0 bytes in 0 blocks
+==80531==   total heap usage: 157 allocs, 157 frees, 83,832 bytes allocated
+==80531== 
+==80531== All heap blocks were freed -- no leaks are possible
+==80531== 
+==80531== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 26 Sep 2022 12:22:19 PM EDT

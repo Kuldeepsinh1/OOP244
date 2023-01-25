@@ -1,0 +1,114 @@
+Script started on Mon 31 Oct 2022 10:32:18 AM EDT
+==58248== Memcheck, a memory error detector
+==58248== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==58248== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==58248== Command: ws
+==58248== 
+******************************************************************
+M1T1: constructors
+==================>
+******************************************************************
+M1T2: operator<< adding MenuItems
+==================>
+******************************************************************
+M1T3: Menu::run()
+==================>
+Do the following: 
+abc <ENTER>
+0 <ENTER>
+4 <ENTER>
+3 <ENTER>
+** Temp **
+1- One
+2- Two
+3- three
+> abc
+Invalid Integer, try again: 0
+Invalid selection, try again: 4
+Invalid selection, try again: 3
+3 selected!
+Press enter to continue...
+
+******************************************************************
+M1T4: Reseting Menu title and running an empty menu with no Items
+==================>
+** New Title **
+No Items to display!
+0 returned by the Menu with no Items.
+Press enter to continue...
+
+******************************************************************
+M1T5: Menu::add() and operator<<
+==================>
+******************************************************************
+M1T6: Submenu and indentation display
+==================>
+Do the following:
+2 <ENTER>
+3 <ENTER>
+** Main Menu **
+1- Option one
+2- Option Two
+3- Sub Options
+4- Option four
+5- Exit
+> 2
+You selected 2.
+** Main Menu **
+1- Option one
+2- Option Two
+3- Sub Options
+4- Option four
+5- Exit
+> 3
+You selected 3.
+Do the following:
+2 <ENTER>
+    ** Sub Menu One **
+    1- Selection one
+    2- Sub Selections two
+    3- Selection three
+    4- Selection four
+    > 2
+You selected 2.
+Do the following:
+3 <ENTER>
+5 <ENTER>
+        ** Sub Menu **
+        1- The first
+        2- The second
+        3- The third
+        > 3
+You selected 3.
+** Main Menu **
+1- Option one
+2- Option Two
+3- Sub Options
+4- Option four
+5- Exit
+> 5
+******************************************************************
+M1T7: operator bool()
+==================>
+The mainMenu is valid and usable.
+******************************************************************
+M1T8: Invalid Menu and its usage
+==================>
+The mainMenu is invalid(empty) and not usable.
+Invalid Menu!
+Invalid Menu!
+******************************************************************
+M1T9: Adding invalid string to render Menu invalid
+==================>
+Invalid Menu!
+Invalid Menu!
+==58248== 
+==58248== HEAP SUMMARY:
+==58248==     in use at exit: 0 bytes in 0 blocks
+==58248==   total heap usage: 37 allocs, 37 frees, 73,088 bytes allocated
+==58248== 
+==58248== All heap blocks were freed -- no leaks are possible
+==58248== 
+==58248== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 31 Oct 2022 10:32:39 AM EDT

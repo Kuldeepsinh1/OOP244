@@ -1,0 +1,14 @@
+Name - Kuldeepsinh Sandipsinh Mahida
+Email - kmahida1@myseneca.ca
+StudentID - 167547215
+Date of Completion - 09 December 2022
+Time:- 11:45 p.m.
+
+In the submission of this milestone, I found difficulties in starting when I started building the 
+milestone because we need to submit the lab and the milestone at the same time within the week however 
+we have the extension for the milestone but it creates delays for that when I move to the milestone I 
+consider it should be hard but in that milestone we only need to print the statement for that I feel very 
+pumped and start working by putting all my hard work in the milestone. However, I encountered challenges 
+when working on this assignment, and I relied on YouTube to clarify ideas as well as the offered notes, 
+which assisted me in finishing this final evaluation. I am glad to state that all of the subjects taught 
+in oop244 are now obvious to me.

@@ -1,0 +1,27 @@
+// name - kuldeepsinh sandipsinh mahida
+// college id - 167547215
+// collegemail - kmahida1@myseneca.ca
+// completion date - 20/9/2022 (20 th september)
+// completion time - 9:00 pm
+
+the following code was extremely difficult due to some reasons like it totally depended
+on the handling of text file and like taking data from it and storing it in meaningfull
+way like in a structure and then process the data accordingly.
+
+when making a text file to store our new dictionary i was not putting a extra empty line at 
+the end and hence the code would get stuck every time for indefinite amount of time untill 
+i realised by hit and trial method that this could be the reason.
+
+to make the program you must understand the w1p2.cpp file provided to you but it was not easy
+to concerntrate to each line of the given code.
+
+the struct system used in this particular question is extremely complex and when using those 
+structure we have to calculate the index number of those struct members and it gets very tough 
+because it has multiple index position to be mentioned to reach a particular value.
+
+counter variable used to mess up the data as i would forget to bring it back to zero when entering 
+new value and sometimes the position at which the counter variable were used to matter a lot as it 
+would lead to entering the data at wrong index.
+
+everything instead of cin, cout, namespace. was taught earlier in ipc but some topics where i was weak
+were required in completion of code which i had to go through again especially reading given txt file.

@@ -1,0 +1,121 @@
+Script started on Wed 07 Dec 2022 04:13:04 PM EST
+==124222== Memcheck, a memory error detector
+==124222== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==124222== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==124222== Command: ms
+==124222== 
+Milestone 4, Car and Motorcycle: 
+Car Test:
+
+Invalid object printout: 
+Invalid Car Object
+
+Testing Console Entry, Enter the following: 
+abc123 <ENTER>
+Chevy Volt <ENTER>
+yes <ENTER>
+y <ENTER>
+
+Car information entry
+Enter License Plate Number: abc123
+Enter Make and Model: Chevy Volt
+Carwash while parked? (Y)es/(N)o: yes
+Invalid response, only (Y)es or (N)o are acceptable, retry: y
+
+Comma Separated Values: 
+C,0,ABC123,Chevy Volt,1
+
+Console Printout: 
+Vehicle type: Car
+Parking Spot Number: N/A
+License Plate: ABC123
+Make and Model: Chevy Volt
+With Carwash
+
+Testing CSV Entry, Enter the following: 
+12,GVAA123,Nissan Leaf,0 <ENTER>
+12,GVAA123,Nissan Leaf,0
+
+Comma Separated Values: 
+C,12,GVAA123,Nissan Leaf,0
+
+
+Console Printout: 
+Vehicle type: Car
+Parking Spot Number: 12
+License Plate: GVAA123
+Make and Model: Nissan Leaf
+Without Carwash
+
+Copy of Car after test:
+Vehicle type: Car
+Parking Spot Number: 12
+License Plate: GVAA123
+Make and Model: Nissan Leaf
+Without Carwash
+
+Assigned Car after test:
+C,200,GVAA123,Nissan Leaf,0
+
+Deallocating Vehicle!
+Motorcycle Test:
+
+Invalid object printout: 
+Invalid Motorcycle Object
+
+Testing Console Entry, Enter the following: 
+ab12 <ENTER>
+Harley Davidson <ENTER>
+yes <ENTER>
+y <ENTER>
+
+Motorcycle information entry
+Enter License Plate Number: ab12
+Enter Make and Model: Harley Davidson
+Does the Motorcycle have a side car? (Y)es/(N)o: yes
+Invalid response, only (Y)es or (N)o are acceptable, retry: y
+
+Comma Separated Values: 
+M,0,AB12,Harley Davidson,1
+
+Console Printout: 
+Vehicle type: Motorcycle
+Parking Spot Number: N/A
+License Plate: AB12
+Make and Model: Harley Davidson
+With Sidecar
+
+Testing CSV Entry, Enter the following: 
+12,AA22,Honda CD80,0 <ENTER>
+12,AA22,Honda CD80,0
+
+Comma Separated Values: 
+M,12,AA22,Honda CD80,0
+
+
+Console Printout: 
+Vehicle type: Motorcycle
+Parking Spot Number: 12
+License Plate: AA22
+Make and Model: Honda CD80
+
+Copy of Motorcycle after test:
+Vehicle type: Motorcycle
+Parking Spot Number: 12
+License Plate: AA22
+Make and Model: Honda CD80
+
+Assigned Motorcycle after test:
+M,400,AA22,Honda CD80,0
+
+Deallocating Vehicle!
+==124222== 
+==124222== HEAP SUMMARY:
+==124222==     in use at exit: 0 bytes in 0 blocks
+==124222==   total heap usage: 29 allocs, 29 frees, 73,131 bytes allocated
+==124222== 
+==124222== All heap blocks were freed -- no leaks are possible
+==124222== 
+==124222== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 07 Dec 2022 04:14:09 PM EST

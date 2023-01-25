@@ -1,0 +1,33 @@
+// name - kuldeepsinh sandipsinh mahida
+// college id - 167547215
+// collegemail - kmahida1@myseneca.ca
+// completion date - 26/9/2022 (26 th september)
+// completion time - 11:13 pm
+
+ANSWER
+ 
+struct data
+	{
+		char postal[4];
+		int population;
+	}
+is a struct used to store data extracted by the given file we use pointer to size the struct because we do 
+not know the the number of postal code before hand. it is provided to us by a function which counts the number of
+entries and returns the count.
+	
+	bool load(const char filename[]);
+we use this function to check weather the dat provided is accurate or not and the file is readable or not then if 
+everything works fine then we read the value and store it respectively.
+file handling was tough but was relatively easy in comparison to that of workshop1 part 2 
+struct data
+	
+	void sort();
+	this is used to sort data but it was a function which troubled a lot because it would lead to array index out of bound
+	error upon realising that we use j+1 in the code hence it leads to the above mentioned problem.
+	we run loop till j-1.
+	
+	void display();
+this function simply display the header of output and the sorted data.
+	
+	void deallocateMemory();
+this function deallocates the data.

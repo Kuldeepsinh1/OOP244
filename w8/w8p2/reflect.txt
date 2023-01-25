@@ -1,0 +1,5 @@
+Name - Kuldeepsinh Sandipsinh Mahida
+Email - kmahida1@myseneca.ca
+StudentID - 167547215
+
+Milestone 2 was quite easy in comparison to milestone1 as we just had to make menu and print the required output as per the choice and in workshop 8 we had to use virtual functions which was introduced in recent class this really helped clear concepts and reinforce them in my mind.

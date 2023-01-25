@@ -1,0 +1,10 @@
+
+   Name - Kuldeepsinh Sandipsinh Mahida
+   StudentID - 167547215
+   Email - kmahida1@myseneca.ca
+   Date of Completion - 10 October 2022
+   Time - 9:40 pm
+
+In this workshop, we learn the use of a constructor to give the null values to the variables used inside the class
+ and the use of a destructor to delete them and also the use of the current object which is used to store the reference
+ by using "*this" keyword.No, I didn't face any difficulty in completing this workshop.

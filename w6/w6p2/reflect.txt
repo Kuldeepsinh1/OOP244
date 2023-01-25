@@ -1,0 +1,5 @@
+Name - Kuldeepsinh Sandipsinh Mahida
+College ID - 167547215
+College mail - kmahida1@myseneca.ca
+
+This helped me better understand the concepts of copy constructor where we pass value of a already existing class instance to the class instance we are going to initialize in the constructor and use of operator function and ostream was also used in this piece of code.

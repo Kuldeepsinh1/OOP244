@@ -1,0 +1,12 @@
+Name - Kuldeepsinh Sandipsinh Mahida
+College ID - 167547215
+Email - kmahida1@myseneca.ca
+
+Milestone 1 and workshop 7 collectively would make you revise almost all the concepts studied till 
+Now some of the concepts learned in this Inheritance , abstract class , virtual functions, operator 
+overloading,Like we used friend class menu in menuItem which is like using abstract class in the code.
+The workshop 7 is basically divided in two parts VehicleBasic and dumper. The dumper part deals with 
+cargo load unload and its capacity and vehicle basic is there to assign license plate number and other 
+stuff and the concepts of inheritance is used where dumper is the child class of vehicleBasic class.
+And in milestone 1 we have two class menu and menu item, menuItem is friend class of menu hence it can 
+access private members of menu class.
